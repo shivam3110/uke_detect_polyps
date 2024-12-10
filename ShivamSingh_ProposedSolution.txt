@@ -1,0 +1,65 @@
+Problem statement: The task is to develop a software solution that can automatically count the number of polyps in colonoscopy videos. This involves image processing, computer vision, and machine learning techniques.
+
+Proposed workflow:
+
+1. Data extraction and preprocessing
+	a. Frame extraction: Extact image frames from the input video sequence
+	b. Image enhacement : Gaussian blur, morphological operations such as contrast enhancement, noise reduction, and possibly color normalization. 
+	c. Find ROI
+	d. Exclude visually redunant information in frames
+
+2. Conventionl OpenCV operations
+
+3. Deep Learning (CNN)
+	A. Model selection:
+		a. Semantic Segmentation: U-Net, DUCK-Net
+		b. Object detection: Faster-RCNN, YOLO,etc with Non-Max Suppresion and higher threshold
+		c. Instance segmentataion: Mask RCNN, Segment Anything Model(SAM)
+	B. Training:
+		a. Fine-tune a pretrained model specifically trained on colonoscopy data, best if pretrained for Familial Adenomatous Polyposis detection	
+		b. Data augmentataion: Flipping, rotataions
+	C. Evaluation:
+		a. mean IoU, Dice Score
+		b. Sensitivity, Specificity, F1-score, mAP
+	C. Inference (Total count of polyps):
+		a. For detection: count number of bound boxes
+		b. For Segmentation: Using connected component analysis to identify connected regions (blobs) in the segmented image
+		
+6. Post processing correction:
+	a. Object tracking
+	b. Total Count without repetition
+	c. Define disease category/severity based on "count" thresholds/range
+
+
+7. Challenges:
+	a. Data:
+		i. Polys vary in size, color, texture, etc. Using pretrained model specificially fine-tuned/trained colonoscopy datasets like:
+			CVC-ClinicDB : https://www.kaggle.com/datasets/balraj98/cvcclinicdb 
+			SUN-SEG: http://amed8k.sundatabase.org/
+			GLRC & CVC colon DB: https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/FCBUOR
+		ii. Artifacts: 
+			fluids, reflections, blurring
+
+
+8. Future work
+	
+	A. Labelled data for trainig
+	B. Modeling: Real time detection & tracking: 
+		YOLOv5, v7, v8 or RetinaNet,
+		Progressively Normalized Self-Attention Network for Video Polyp Segmentation: https://github.com/GewelsJI/VPS
+	
+	C. Overlapping Polyps: 
+		i. Use instace segmentataion instead of object detection
+		ii. Connected Component Analysis, watershed segmentation to distinguish clustered polyps
+		
+	D. State-of-the-art
+	
+	References:
+	1. Colorectal polyp detection in colonoscopy images using YOLO-V8 network
+		https://link.springer.com/article/10.1007/s11760-023-02835-1
+	2. Video Polyp Segmentation: A Deep Learning Perspective (MIR 2022)
+		https://github.com/GewelsJI/VPS
+		
+Conclusion:
+The FastRCNN model is successfully integrated with the UI, however as seen the "Total polyp count=0" and the model detect the entire object in the image as the target and not just the polyps. Therefore, my next steps will to fine tune a pretrained model (specific on colonoscopy data) and a large colonscopy dataset and use these two test videos for inferecing only.
+The OpencCV morphological operations fails to identify polyps due to limited variation amongst poly and data.

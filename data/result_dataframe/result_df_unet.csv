@@ -1,0 +1,14 @@
+Image,Segmentation_Result
+frame_0000.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0000.jpg
+frame_0001.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0001.jpg
+frame_0002.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0002.jpg
+frame_0003.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0003.jpg
+frame_0004.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0004.jpg
+frame_0005.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0005.jpg
+frame_0006.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0006.jpg
+frame_0007.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0007.jpg
+frame_0008.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0008.jpg
+frame_0009.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0009.jpg
+frame_0010.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0010.jpg
+frame_0011.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0011.jpg
+frame_0012.jpg,/mnt/d/ml_projects/ukw_detect_polyps/data/annotated_frames/annotated_unet_frame_0012.jpg

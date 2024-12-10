@@ -1,0 +1,14 @@
+Image,Boxes,Labels,Scores
+annotated_fastrcnnframe_0000.jpg,"[[tensor(232.7469), tensor(86.1844), tensor(1234.9602), tensor(1010.6535)], [tensor(291.1317), tensor(123.3023), tensor(1217.0889), tensor(994.6138)]]","[53, 61]","[0.7467746138572693, 0.668637752532959]"
+annotated_fastrcnnframe_0001.jpg,"[[tensor(265.6513), tensor(91.2603), tensor(1256.3488), tensor(1041.6534)]]",[53],[0.5894651412963867]
+annotated_fastrcnnframe_0002.jpg,[],[],[]
+annotated_fastrcnnframe_0003.jpg,"[[tensor(266.3272), tensor(82.9265), tensor(1244.5992), tensor(1032.9890)], [tensor(262.0741), tensor(93.8763), tensor(1236.8661), tensor(1015.4924)]]","[61, 53]","[0.5849481821060181, 0.5345749855041504]"
+annotated_fastrcnnframe_0004.jpg,[],[],[]
+annotated_fastrcnnframe_0005.jpg,"[[tensor(225.5326), tensor(30.9547), tensor(1244.8359), tensor(1033.3536)]]",[86],[0.6511802673339844]
+annotated_fastrcnnframe_0006.jpg,"[[tensor(282.8730), tensor(52.7901), tensor(1249.2084), tensor(1024.2089)]]",[53],[0.6492319703102112]
+annotated_fastrcnnframe_0007.jpg,"[[tensor(249.5278), tensor(56.1834), tensor(1239.2738), tensor(1015.2382)], [tensor(256.2498), tensor(67.9566), tensor(1248.5649), tensor(1042.3656)]]","[53, 60]","[0.641876757144928, 0.5396599173545837]"
+annotated_fastrcnnframe_0008.jpg,"[[tensor(258.2045), tensor(79.5938), tensor(1253.0332), tensor(1025.1519)]]",[60],[0.6690552234649658]
+annotated_fastrcnnframe_0009.jpg,"[[tensor(242.8204), tensor(96.9673), tensor(1212.2642), tensor(1027.4225)]]",[60],[0.7125247716903687]
+annotated_fastrcnnframe_0010.jpg,"[[tensor(247.7402), tensor(94.2357), tensor(1223.1146), tensor(1009.5294)]]",[60],[0.6674555540084839]
+annotated_fastrcnnframe_0011.jpg,"[[tensor(244.5620), tensor(26.5298), tensor(1212.5204), tensor(1003.4629)], [tensor(257.8051), tensor(98.4354), tensor(1235.7156), tensor(997.7923)]]","[60, 61]","[0.5771793723106384, 0.5271616578102112]"
+annotated_fastrcnnframe_0012.jpg,"[[tensor(312.7060), tensor(68.3386), tensor(1234.3400), tensor(1033.2220)]]",[53],[0.6587278246879578]
