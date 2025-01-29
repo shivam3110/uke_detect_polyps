@@ -1,6 +1,5 @@
 # Familial Adenomatous Polyposis Detection
-<img src="static/cover-image.jpg" alt="Cover Image" class="full-width-image">
-<img src="static/cover-image.jpg" alt="Cover Image" class="full-width-image">
+<img src="static/cover-image.jpg" alt="Cover Image" style="width: 100%; height: auto;">
 
 
 ## Overview
