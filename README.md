@@ -38,9 +38,9 @@ This will start the local server on `http://127.0.0.1:5000/`.
 3. **Select a detection model** from the dropdown menu and click 'Count Polyps'.
 4. **View results** on the same page, including the annotated images and the polyp count.
 
-
+<!-- 
 ## Contact
-Your Name – singh.shivam311095@gmail.com
+Your Name – singh.shivam311095@gmail.com -->
 
 
 
