@@ -1,5 +1,10 @@
 # Familial Adenomatous Polyposis Detection
 
+![alt text](static/cover-image.jpg)
+<img src="static/cover-image.jpg" alt="Cover Image" class="full-width-image">
+<img src="static/cover-image.jpg" alt="Cover Image" class="full-width-image">
+
+
 ## Overview
 This Python web application is designed to assist medical professionals by automatically detecting and counting polyps from colonoscopy videos. It employs machine learning models to analyze video frames and identify potential polyps, providing a count of these features which can be crucial for diagnosing Familial Adenomatous Polyposis.
 
